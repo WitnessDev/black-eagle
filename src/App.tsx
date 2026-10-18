@@ -30,6 +30,7 @@ import { PricingCard } from "./components/PricingCard";
 import { LuxuryCard } from "./components/LuxuryCard";
 import { translations, Language } from "./translations";
 import { SafariDetails } from "./components/SafariDetails";
+import { MediaGallery } from "./components/MediaGallery";
 import { itineraries } from "./data/itineraries";
 import { translatedItineraries } from "./data/translatedItineraries";
 
@@ -41,11 +42,20 @@ export default function App() {
   const currentItineraries =
     lang === "en"
       ? itineraries
-      : itineraries.map((it) => ({
-          ...it,
-          ...(translatedItineraries[lang]?.[it.id] ?? {}),
-          image: it.image,
-        }));
+      : itineraries.map((it) => {
+          const trans = (translatedItineraries as any)[lang]?.[it.id] ?? {};
+          return {
+            ...it,
+            ...trans,
+            image: it.image,
+            plan: it.plan.map((p, pIdx) => ({
+              ...p,
+              ...(trans.plan?.[pIdx] ?? {}),
+              image: p.image,
+              imageAlt: p.imageAlt,
+            })),
+          };
+        });
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -58,53 +68,46 @@ export default function App() {
   const [formStatus, setFormStatus] = useState<"idle" | "sending" | "sent">(
     "idle",
   );
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const [videoError, setVideoError] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
-  const videoInView = useInView(videoRef, { amount: 0.1 });
 
   useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    const attemptPlay = async () => {
-      try {
-        video.muted = true;
-        video.defaultMuted = true;
-        await video.play();
-      } catch (err) {
-        console.log("Autoplay failed:", err);
-      }
-    };
-
-    if (videoInView) {
-      attemptPlay();
+    if (typeof window !== "undefined" && window.matchMedia) {
+      const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+      setPrefersReducedMotion(mediaQuery.matches);
+      const listener = (e: MediaQueryListEvent) => setPrefersReducedMotion(e.matches);
+      mediaQuery.addEventListener("change", listener);
+      return () => mediaQuery.removeEventListener("change", listener);
     }
-  }, [videoInView]);
+  }, []);
 
   useEffect(() => {
     const playVideo = async () => {
-      if (videoRef.current) {
+      if (videoRef.current && !prefersReducedMotion) {
         try {
           videoRef.current.muted = true;
           videoRef.current.defaultMuted = true;
-          await videoRef.current.load();
           await videoRef.current.play();
         } catch (error) {
           console.log("Autoplay was prevented:", error);
           // Fallback: try playing again on first user interaction if needed
           const handleFirstTouch = () => {
-            videoRef.current?.play();
+            videoRef.current?.play().catch(() => {});
             window.removeEventListener("touchstart", handleFirstTouch);
             window.removeEventListener("mousedown", handleFirstTouch);
+            window.removeEventListener("scroll", handleFirstTouch);
           };
           window.addEventListener("touchstart", handleFirstTouch);
           window.addEventListener("mousedown", handleFirstTouch);
+          window.addEventListener("scroll", handleFirstTouch);
         }
       }
     };
     playVideo();
-  }, []);
+  }, [prefersReducedMotion]);
 
-  // Ensure video loops and plays on MacBook/Safari
+  // Ensure video loops smoothly
   const handleVideoEnded = () => {
     if (videoRef.current) {
       videoRef.current.currentTime = 0;
@@ -307,7 +310,7 @@ export default function App() {
                 <button
                   onClick={() => {
                     setSelectedSafariId(null);
-                    scrollToSection("tours");
+                    scrollToSection("stories");
                   }}
                   className="hover:text-[#D46F4D] transition-colors"
                 >
@@ -433,7 +436,7 @@ export default function App() {
                   <button
                     onClick={() => {
                       setSelectedSafariId(null);
-                      scrollToSection("tours");
+                      scrollToSection("stories");
                     }}
                     className="text-4xl font-playfair mb-6"
                   >
@@ -514,12 +517,39 @@ export default function App() {
             className="relative h-screen flex items-center justify-center overflow-hidden"
           >
             <div className="absolute inset-0 z-0 bg-black">
-              <img
-                src="/images/hero-lions-tree.jpg"
-                alt="Lions resting in a tree"
-                className="w-full h-full object-cover opacity-80 animate-slow-zoom"
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-[#F4F0E6]"></div>
+              {prefersReducedMotion || videoError ? (
+                <img
+                  src="/images/hero-lions-tree.jpg"
+                  alt="Lions resting in an acacia tree in Tanzania"
+                  className="w-full h-full object-cover opacity-80 animate-slow-zoom"
+                />
+              ) : (
+                <video
+                  ref={videoRef}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="auto"
+                  poster="/images/hero-lions-tree.jpg"
+                  onError={() => setVideoError(true)}
+                  onEnded={handleVideoEnded}
+                  className="w-full h-full object-cover object-center scale-105"
+                >
+                  <source src="/videos/hero.mp4" type="video/mp4" />
+                  <source
+                    src="https://ik.imagekit.io/gb9ljvgtr/VID-20260328-WA0031.mp4"
+                    type="video/mp4"
+                  />
+                  <img
+                    src="/images/hero-lions-tree.jpg"
+                    alt="Lions resting in an acacia tree in Tanzania"
+                    className="w-full h-full object-cover opacity-80"
+                  />
+                </video>
+              )}
+              {/* Restrained overlay ensuring typography and CTAs remain crisp and readable */}
+              <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/35 to-[#F4F0E6] pointer-events-none"></div>
             </div>
             <div className="relative z-10 container mx-auto px-4 text-center mt-20">
               <Reveal>
@@ -565,31 +595,12 @@ export default function App() {
               <div className="flex flex-col md:flex-row items-center gap-16 md:gap-32">
                 <div className="md:w-1/2 relative group">
                   <div className="absolute top-0 left-0 w-full h-full bg-[#D46F4D] rounded-tr-[100px] rounded-bl-[100px] opacity-10 transform translate-x-4 translate-y-4 group-hover:translate-x-6 group-hover:translate-y-6 transition-transform duration-700"></div>
-                  <div className="rounded-tr-[100px] rounded-bl-[100px] shadow-2xl relative z-10 w-full overflow-hidden h-[450px] md:h-[600px] bg-slate-900 cursor-pointer">
-                    <video
-                      ref={videoRef}
-                      autoPlay
-                      muted
-                      playsInline
-                      preload="auto"
-                      className="w-full h-full object-cover"
-                      poster="/images/elephants-herd.jpg"
-                      onEnded={handleVideoEnded}
-                      onClick={(e) => {
-                        const video = e.currentTarget;
-                        if (video.paused) {
-                          video.play();
-                        } else {
-                          video.pause();
-                        }
-                      }}
-                    >
-                      <source
-                        src="https://ik.imagekit.io/gb9ljvgtr/VID-20260328-WA0031.mp4"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
+                  <div className="rounded-tr-[100px] rounded-bl-[100px] shadow-2xl relative z-10 w-full overflow-hidden h-[450px] md:h-[600px] bg-slate-900">
+                    <img
+                      src="/images/elephants-herd.jpg"
+                      alt="Elephants traversing the Tanzanian savanna"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
                   </div>
                 </div>
 
@@ -798,6 +809,12 @@ export default function App() {
               </Reveal>
             </div>
           </section>
+
+          {/* Stories & Field Gallery Section */}
+          <MediaGallery
+            onSelectTrip={(trip) => setBookingTrip(trip)}
+            onOpenBooking={() => scrollToSection("booking")}
+          />
 
           {/* Features */}
           <section className="py-24 md:py-32 bg-[#232B25] text-white relative overflow-hidden rounded-[40px] mx-4 md:mx-10">

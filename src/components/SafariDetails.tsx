@@ -9,7 +9,6 @@ import {
   AlertCircle,
   ChevronRight,
   Sun,
-  Camera,
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -222,15 +221,29 @@ export const SafariDetails = ({
                     </div>
                     
                     <div className="bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl transition-shadow w-full">
-                      <span className="text-[#D46F4D] text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase block mb-3">
-                        {day.day}
-                      </span>
-                      <h3 className="text-xl md:text-3xl font-playfair text-slate-900 mb-6">
-                        {day.title}
-                      </h3>
-                      <p className="text-gray-600 font-light leading-loose whitespace-pre-wrap text-[15px] md:text-lg">
-                        {day.desc}
-                      </p>
+                      <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-start">
+                        <div className="flex-1">
+                          <span className="text-[#D46F4D] text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase block mb-3">
+                            {day.day}
+                          </span>
+                          <h3 className="text-xl md:text-3xl font-playfair text-slate-900 mb-6">
+                            {day.title}
+                          </h3>
+                          <p className="text-gray-600 font-light leading-loose whitespace-pre-wrap text-[15px] md:text-lg">
+                            {day.desc}
+                          </p>
+                        </div>
+                        {day.image && (
+                          <div className="w-full lg:w-80 shrink-0 overflow-hidden rounded-2xl shadow-md border border-gray-100 mt-4 lg:mt-0 group/img bg-slate-100">
+                            <img
+                              src={day.image}
+                              alt={day.imageAlt || day.title}
+                              loading="lazy"
+                              className="w-full h-52 lg:h-60 object-cover group-hover/img:scale-105 transition-transform duration-500"
+                            />
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>

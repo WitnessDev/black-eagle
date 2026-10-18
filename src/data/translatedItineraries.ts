@@ -8,7 +8,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "6 Days",
       "location": "阿鲁沙 - 马尼亚拉湖 - 恩戈罗恩戈罗 - 塞伦盖蒂",
       "price": "$2,000",
-      "image": "https://www.asiliaafrica.com/wp-content/uploads/2024/04/A-flock-of-flamingos-Lake-Manyara-Arusha-Tanzania.jpg",
+      "image": "/images/giraffes.jpg",
       "overview": "这次旅行非常适合时间有限但想要参观坦桑尼亚北部顶级公园的旅行者。游猎行程将带您观赏曼雅拉湖的粉色火烈鸟、塞伦盖蒂大草原上的牛羚和斑马群，并驱车前往雄伟的恩戈罗恩戈罗火山口。在这次旅行中，您一定会看到非洲五霸（大象、水牛、豹子、犀牛和狮子）以及许多其他动物和野生动物。\n\n此行程是价格与品质的完美结合；客人可以入住曼雅拉湖和恩戈罗恩戈罗附近以及塞伦盖蒂国家公园内的舒适小屋。经验丰富的司机导游将带领您穿越非洲丛林，并与您分享对周围野生动物和风景的更深入的了解。",
       "included": [
         "计划中描述的所有转移",
@@ -76,7 +76,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "阿鲁沙 - 恩戈罗恩戈罗 - Empakaai",
       "price": "$2,285",
-      "image": "https://abundadiscoveriesuganda.com/wp-content/uploads/2025/01/Ngorongoro-National-Park-Tanzania-by-Licious-Adventure-%E2%80%94-YouPic.jpg",
+      "image": "/images/ngorongoro-crater.jpg",
       "overview": "对于那些想要探索令人惊叹的恩戈罗恩戈罗火山口而又不想经常更换地点的人来说，这个为期 3 天的冒险之旅是完美的选择。您将在一间舒适的帐篷旅馆住两晚，并以此为基地，探索该地区的独特景点。第一天从阿鲁沙出发，驱车欣赏风景，然后在护林员的带领下沿着火山口边缘步行，欣赏恩戈罗恩戈罗火山口的全景。第二天徒步穿越 Empakai 火山口，重点欣赏令人惊叹的风景。第三天，在恩戈罗恩戈罗火山口享受狩猎之旅，这里是世界上野生动物最密集的家园。住在联合国教科文组织世界遗产内，为体验增添了一层额外的魔力！",
       "included": [
         "计划中描述的所有转移",
@@ -139,7 +139,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "10 Days",
       "location": "塔兰吉雷 - 恩戈罗恩戈罗 - 塞伦盖蒂 - 桑给巴尔",
       "price": "$4,500",
-      "image": "https://notwithoutmypassport.com/wp-content/uploads/2014/12/masai-zanzibar.jpg",
+      "image": "/images/lioness-track.jpg",
       "overview": "欢迎来到难忘的发现之旅\n\n准备好在精心策划的野生动物园中体验非洲的真正精髓，这里融合了冒险、奢华和令人惊叹的自然美景。这次非凡的旅程将带您穿越坦桑尼亚一些最具标志性的目的地。塔兰吉雷国家公园、曼雅拉湖国家公园、塞伦盖蒂国家公园和世界著名的恩戈罗恩戈罗火山口。最后抵达热带天堂桑给巴尔。\n\n从塔兰吉雷雄伟的猴面包树点缀的风景，到郁郁葱葱的曼雅拉湖，爬树狮子在湖中漫步，每一刻都是为了激发灵感。冒险进入塞伦盖蒂一望无际的平原，这里是大迁徙的发源地，也是野生动物极其集中的地方，然后深入恩戈罗恩戈罗火山口，这里是地球上最壮观的自然奇观之一，充满了生命。\n\n经过几天惊心动魄的驱车游猎和难忘的野生动物邂逅后，您的旅程将在桑给巴尔结束，那里白色的沙滩、碧绿的海水和丰富的文化遗产为您提供了放松身心的完美环境。\n\n这不仅仅是一次狩猎之旅，更是一次完整的非洲体验。无论您是寻求冒险、浪漫还是纯粹的放松，这次旅程都会给您带来终生难忘的回忆。\n\n探索野外。拥抱美丽。结束于天堂。",
       "included": [
         "计划中描述的所有转移",
@@ -231,7 +231,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "塔兰吉雷 - 恩戈罗恩戈罗 - 恩杜图",
       "price": "$2,220",
-      "image": "https://www.jacadatravel.com/_next/image/?url=https%3A%2F%2Fcdn.jacadatravel.com%2Fwp-content%2Fuploads%2Fbis-images%2F21285%2Fwildebeest_dreamstime_xl_17312474-1600x1000-f50_50.jpg&w=1600&q=100",
+      "image": "/images/elephants-herd.jpg",
       "overview": "这个为期 5 天的探险之旅的重点是时间和地点 - 带您到达大迁徙的实际地点。从 12 月到 3 月初，牛群聚集在 Ndutu 地区，迎接戏剧性的产犊季节，产犊季节通常在一月中旬开始。作为塞伦盖蒂大生态系统的一部分，恩杜图为数以千计在开阔平原上产子的角马提供了前排座位，而掠食者也从不落后。\n\n旅程从塔兰吉雷的经典狩猎日开始，塔兰吉雷以其古老的猴面包树和大型象群而闻名。接下来，您将在恩戈罗恩戈罗火山口享受驾车游猎的乐趣，然后前往恩杜图平原，该平原是更大的恩戈罗恩戈罗-塞伦盖蒂生态系统的一部分。\n\n迁徙季节的住宿是季节性帐篷营地——在迁徙中心设立的舒适的半永久性小屋。这些营地精心布置在主要的野生动物区域，提供真正的床、套间浴室，并在火炉边度过舒适的夜晚。",
       "included": [
         "计划中描述的所有转移",
@@ -294,7 +294,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "塔兰吉雷 - 恩戈罗恩戈罗 - 恩杜图 - 塞伦盖蒂",
       "price": "$3,930",
-      "image": "https://congemasafaris.com/wp-content/uploads/2025/07/Calving-season.jpeg",
+      "image": "/images/elephant-portrait.jpg",
       "overview": "对于想要在产犊季节看到 Ndutu 地区大迁徙，同时探索塞伦盖蒂中部野生动物丰富的景观的游客来说，这次游猎之旅是一个绝佳的选择。从一月到二月，南部平原上新生的角马生机勃勃，附近还有大量的掠食者。\n\n该行程在恩杜图和塞伦盖蒂中部都停留两晚，为您在每个地区提供恰到好处的时间。您还将参观以猴面包树和大象而闻名的塔兰吉雷国家公园，以及恩戈罗恩戈罗火山口——一个倒塌的火山口，是非洲野生动物最集中的地区之一\n\n奖励：一路上，您将入住舒适的中档旅馆和营地，包括阿瓦利营地 - 我们系列的最新成员！这是一家时尚酒店，只有 10 个帐篷，地理位置优越，位于塞伦盖蒂南部和中部之间。它比典型的预算选项高出一步，为我们的客人提供更亲密的氛围和特别折扣价格。",
       "included": [
         "计划中描述的所有转移",
@@ -371,7 +371,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "恩戈罗恩戈罗 - 塞伦盖蒂西部走廊",
       "price": "$3,260",
-      "image": "https://acaciasafari.co.ug/wp-content/uploads/2021/09/great-migration-1200x675.jpg",
+      "image": "/images/leopard.jpg",
       "overview": "这次为期 5 天的探险活动是一年中最激动人心的活动之一——穿越塞伦盖蒂西部走廊的大迁徙，通常从五月下旬到六月下旬进行。在此期间，成群的角马和斑马试图穿越格鲁梅蒂河，鳄鱼在那里埋伏等待。\n\n您的旅程从塔兰吉雷国家公园开始，这里以其古老的猴面包树和大型象群而闻名，然后在恩戈罗恩戈罗火山口（被联合国教科文组织列为世界遗产，拥有丰富的野生动物）进行驱车游猎。然后在塞伦盖蒂中部住一晚，然后向西在称为西部走廊的迁徙区住两晚。\n\n与塞伦盖蒂北部马拉河上的渡口（7 月至 9 月）不同，格鲁梅蒂渡口通常不那么拥挤，感觉更亲密。河流可能较浅，因此奇观不那么引人注目，但仍然充满紧张感，因为巨大的鳄鱼潜伏在水中。这是一种更安静、更私密的见证大迁徙的方式，远离北方旺季的人群。",
       "included": [
         "计划中描述的所有转移",
@@ -444,7 +444,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "塔兰吉雷 - 恩戈罗恩戈罗 - 塞伦盖蒂",
       "price": "$3,495",
-      "image": "https://asanjaafrica.com/wp-content/uploads/2025/09/Serengeti-Lions-Kings-of-Tanzanias-Savannah.jpg",
+      "image": "/images/hero-lions-tree.jpg",
       "overview": "这个为期 5 天的野生动物园将经典公园与以捕食者为中心的特色融为一体。从塔兰吉雷出发，您将有机会看到几乎所有非洲五霸，包括狮子，还可能瞥见在标志性猴面包树和金合欢树下休息的难以捉摸的猎豹。然后您将深入恩戈罗恩戈罗火山口，这是一个掠食者的热点地区，这里有茂密的野生动物，包括稀有的犀牛。\n\n您将在塞伦盖蒂平原营地度过三晚，这是豪华帐篷营地系列的最新成员。仅有 7 个设计精美的帐篷，提供极致的私密性和专属性。该营地地理位置优越，靠近纳米里平原，可以轻松前往非洲观赏猎豹的最佳地区之一。\n\n纳米里平原是猎豹保护的重要地区。其开阔的草原为这些濒临灭绝的猫科动物提供了理想的栖息地，持续的研究和保护工作有助于保护它们的种群。从 10 月下旬到 11 月，回归的角马群带来了戏剧性的捕食者与猎物互动，让客人可以近距离观察猎豹的活动，同时支持重要的保护工作。",
       "included": [
         "计划中描述的所有转移",
@@ -517,7 +517,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "4 Days",
       "location": "阿鲁沙 - 恩戈罗恩戈罗",
       "price": "$1,555",
-      "image": "https://www.exploretanzania.nl/wp-content/uploads/2018/10/Tarangire-2-1920x1280-1920x1080.jpg?x39476",
+      "image": "/images/rhino-family.jpg",
       "overview": "这次短途旅行包括在火山口边缘过夜，因此您可以充分利用在非洲独特的狩猎目的地恩戈罗恩戈罗火山口的狩猎时间。从您的狩猎出发点阿鲁沙出发，大约需要 4.5 至 5 小时 - 在恩戈罗恩戈罗过夜，为您第二天早上提供完美的出发点！\n\n第二天早上，您将早起，赶在人群到来之前观赏野生动物最活跃的时刻。\n\n恩戈罗恩戈罗火山口是世界上最大的完整火山口，全年栖息着超过 25,000 只动物，其中包括稀有的黑犀牛。在这里，最幸运的人甚至可能在一天内看到所有五巨头！",
       "included": [
         "计划中描述的所有转移",
@@ -576,7 +576,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "6 Days",
       "location": "Arusha – Lake Manyara – Ngorongoro – Serengeti",
       "price": "$2,000",
-      "image": "https://www.asiliaafrica.com/wp-content/uploads/2024/04/A-flock-of-flamingos-Lake-Manyara-Arusha-Tanzania.jpg",
+      "image": "/images/giraffes.jpg",
       "overview": "Diese Reise ist ideal für Reisende, die wenig Zeit haben, aber die besten Parks im Norden Tansanias sehen möchten. Die Safari-Route führt Sie zu den rosa Flamingos des Manyara-Sees, zu den Gnus- und Zebraherden in den Savannen der Serengeti und in den majestätischen Ngorongoro-Krater. Auf dieser Tour werden Sie mit Sicherheit die Big Five Afrikas (Elefant, Büffel, Leopard, Nashorn und Löwe) sowie viele andere Tiere und Wildtiere sehen.\n\nDiese Reiseroute ist eine perfekte Kombination aus Preis und Qualität; Gäste übernachten in komfortablen Lodges in der Nähe des Manyara-Sees und des Ngorongoro-Sees sowie direkt im Serengeti-Nationalpark. Ein erfahrener Fahrer-Guide führt Sie durch den afrikanischen Busch und vermittelt Ihnen tiefere Einblicke in die Tierwelt und Landschaft um Sie herum.",
       "included": [
         "Alle im Programm beschriebenen Transfers",
@@ -644,7 +644,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "Arusha – Ngorongoro – Empakaai",
       "price": "$2,285",
-      "image": "https://abundadiscoveriesuganda.com/wp-content/uploads/2025/01/Ngorongoro-National-Park-Tanzania-by-Licious-Adventure-%E2%80%94-YouPic.jpg",
+      "image": "/images/ngorongoro-crater.jpg",
       "overview": "Dieses dreitägige Abenteuer ist perfekt für diejenigen, die den atemberaubenden Ngorongoro-Krater erkunden möchten, ohne ständig den Ort wechseln zu müssen. Sie übernachten zwei Nächte in einer komfortablen Zelt-Lodge und nutzen diese als Ausgangspunkt, um die einzigartigen Highlights der Gegend zu erkunden. Tag 1 beginnt mit einer malerischen Fahrt von Arusha und einem von einem Ranger geführten Spaziergang entlang des Kraterrandes, um den Panoramablick auf die Ngorongoro-Caldera zu genießen. Tag 2 bietet eine Wanderung durch den Empakai-Krater mit Schwerpunkt auf den atemberaubenden Landschaften. Genießen Sie am dritten Tag eine Safari im Ngorongoro-Krater, der Heimat der dichtesten Wildtierpopulation der Welt. Der Aufenthalt in einer UNESCO-Welterbestätte verleiht dem Erlebnis eine zusätzliche Ebene an Magie!",
       "included": [
         "Alle im Programm beschriebenen Transfers",
@@ -707,7 +707,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "10 Days",
       "location": "Tarangire – Ngorongoro – Serengeti – Sansibar",
       "price": "$4,500",
-      "image": "https://notwithoutmypassport.com/wp-content/uploads/2014/12/masai-zanzibar.jpg",
+      "image": "/images/lioness-track.jpg",
       "overview": "Willkommen zu einer unvergesslichen Entdeckungsreise\n\nMachen Sie sich bereit, die wahre Essenz Afrikas auf einer sorgfältig zusammengestellten Safari zu erleben, die Abenteuer, Luxus und atemberaubende Naturschönheit vereint. Diese außergewöhnliche Reise führt Sie durch einige der berühmtesten Reiseziele Tansanias. Tarangire-Nationalpark, Lake-Manyara-Nationalpark, Serengeti-Nationalpark und der weltberühmte Ngorongoro-Krater. Bevor Sie im tropischen Paradies Sansibar enden.\n\nVon den majestätischen, mit Affenbrotbäumen übersäten Landschaften von Tarangire bis hin zur üppigen Schönheit des Lake Manyara, wo baumkletternde Löwen umherstreifen – jeder Moment soll inspirierend sein. Wagen Sie sich in die endlosen Ebenen der Serengeti, der Heimat der Großen Migration und einer unglaublichen Konzentration an Wildtieren, und steigen Sie dann in den Ngorongoro-Krater hinab, eines der spektakulärsten Naturwunder der Erde voller Leben.\n\nNach Tagen voller aufregender Pirschfahrten und unvergesslicher Begegnungen mit der Tierwelt endet Ihre Reise in Sansibar, wo weiße Sandstrände, türkisfarbenes Wasser und ein reiches kulturelles Erbe den perfekten Rahmen zum Entspannen und Erholen bieten.\n\nDies ist mehr als nur eine Safari, es ist ein komplettes Afrika-Erlebnis. Egal, ob Sie Abenteuer, Romantik oder pure Entspannung suchen, diese Reise verspricht Erinnerungen, die ein Leben lang anhalten.\n\nEntdecken Sie die Wildnis. Umarmen Sie die Schönheit. Ende im Paradies.",
       "included": [
         "Alle im Programm beschriebenen Transfers",
@@ -799,7 +799,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "Tarangire – Ngorongoro – Ndutu",
       "price": "$2,220",
-      "image": "https://www.jacadatravel.com/_next/image/?url=https%3A%2F%2Fcdn.jacadatravel.com%2Fwp-content%2Fuploads%2Fbis-images%2F21285%2Fwildebeest_dreamstime_xl_17312474-1600x1000-f50_50.jpg&w=1600&q=100",
+      "image": "/images/elephants-herd.jpg",
       "overview": "Bei dieser 5-tägigen Safari kommt es vor allem auf Timing und Ort an – sie führt Sie dorthin, wo sich die Große Völkerwanderung tatsächlich befindet. Von Dezember bis Anfang März versammeln sich die Herden in der Ndutu-Region zur dramatischen Kalbungszeit, die normalerweise Mitte Januar beginnt. Als Teil des größeren Serengeti-Ökosystems bietet Ndutu Sitzplätze in der ersten Reihe für Tausende von Gnus, die auf den offenen Ebenen ihre Jungen zur Welt bringen – und für die Raubtiere, die nie weit zurückbleiben.\n\nDie Reise beginnt mit einem klassischen Safari-Tag in Tarangire, das für seine alten Affenbrotbäume und großen Elefantenherden bekannt ist. Anschließend genießen Sie eine Pirschfahrt im Ngorongoro-Krater, bevor Sie in die Ndutu-Ebene aufbrechen, die Teil des größeren Ngorongoro-Serengeti-Ökosystems ist.\n\nDie Unterbringung während der Migrationssaison erfolgt in saisonalen Zeltlagern – komfortablen, semi-permanenten Lodges mitten im Geschehen. Diese Camps liegen sorgfältig in erstklassigen Wildgebieten und bieten echte Betten, eigene Badezimmer und gemütliche Abende am Feuer.",
       "included": [
         "Alle im Programm beschriebenen Transfers",
@@ -862,7 +862,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Tarangire – Ngorongoro – Ndutu – Serengeti",
       "price": "$3,930",
-      "image": "https://congemasafaris.com/wp-content/uploads/2025/07/Calving-season.jpeg",
+      "image": "/images/elephant-portrait.jpg",
       "overview": "Diese Safari ist eine großartige Wahl für Reisende, die während der Kalbungszeit die große Vogelwanderung in der Ndutu-Region beobachten und gleichzeitig die wildreichen Landschaften der zentralen Serengeti erkunden möchten. Von Januar bis Februar werden die südlichen Ebenen mit neugeborenen Gnus belebt – und in der Nähe gibt es jede Menge Raubtiere.\n\nMit zwei Nächten sowohl in Ndutu als auch in der Zentral-Serengeti bietet Ihnen diese Reiseroute genau die richtige Zeit in jedem Gebiet. Sie besuchen auch den Tarangire-Nationalpark, der für seine Affenbrotbäume und Elefanten berühmt ist, und den Ngorongoro-Krater – eine eingestürzte Vulkankrater, die eine der höchsten Wildtierkonzentrationen in ganz Afrika beherbergt\n\nBonus: Unterwegs übernachten Sie in komfortablen Lodges und Camps der Mittelklasse, darunter das Awali Camp – die neueste Ergänzung unserer Sammlung! Es ist ein stilvolles Anwesen mit nur 10 Zelten und einer fantastischen Lage zwischen der südlichen und zentralen Serengeti. Es ist den typischen Budgetoptionen einen Schritt voraus und bietet unseren Gästen eine intimere Atmosphäre und spezielle Ermäßigungen.",
       "included": [
         "Alle im Programm beschriebenen Transfers",
@@ -939,7 +939,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Westkorridor Ngorongoro - Serengeti",
       "price": "$3,260",
-      "image": "https://acaciasafari.co.ug/wp-content/uploads/2021/09/great-migration-1200x675.jpg",
+      "image": "/images/leopard.jpg",
       "overview": "Diese 5-tägige Safari ist auf eines der aufregendsten Ereignisse des Jahres abgestimmt – die Große Migration, die normalerweise von Ende Mai bis Ende Juni durch den Westkorridor der Serengeti führt. Während dieser Zeit versuchen Gnus- und Zebraherden, den Grumeti-Fluss zu überqueren, wo Krokodile auf der Lauer liegen.\n\nIhre Reise beginnt im Tarangire-Nationalpark, der für seine alten Affenbrotbäume und großen Elefantenherden bekannt ist, gefolgt von einer Pirschfahrt im Ngorongoro-Krater – einem UNESCO-Weltkulturerbe voller Wildtiere. Anschließend verbringen Sie eine Nacht in der Zentralserengeti, bevor es für zwei Nächte nach Westen in das Migrationsgebiet namens Western Corridor geht.\n\nIm Gegensatz zu den Überfahrten auf dem Mara-Fluss in der nördlichen Serengeti (Juli-September) sind die Grumeti-Überfahrten oft weniger überfüllt und fühlen sich intimer an. Der Fluss ist möglicherweise flacher, sodass das Spektakel weniger dramatisch ist – aber dennoch voller Spannung, da riesige Krokodile im Wasser lauern. Es ist eine ruhigere und privatere Möglichkeit, die Völkerwanderung abseits der Menschenmassen in der Hochsaison im Norden mitzuerleben.",
       "included": [
         "Alle im Programm beschriebenen Transfers",
@@ -1012,7 +1012,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Tarangire – Ngorongoro – Serengeti",
       "price": "$3,495",
-      "image": "https://asanjaafrica.com/wp-content/uploads/2025/09/Serengeti-Lions-Kings-of-Tanzanias-Savannah.jpg",
+      "image": "/images/hero-lions-tree.jpg",
       "overview": "Diese 5-tägige Safari verbindet klassische Parks mit einer auf Raubtiere ausgerichteten Variante. Von Tarangire aus haben Sie die Möglichkeit, fast alle Big Five, einschließlich Löwen, zu sehen und möglicherweise einen Blick auf die scheuen Geparden zu erhaschen, die unter den berühmten Affenbrotbäumen und Akazienbäumen ruhen. Anschließend steigen Sie in den Ngorongoro-Krater hinab, ein Raubtier-Hotspot mit seiner dichten Tierwelt, darunter auch die seltenen Nashörner.\n\nSie verbringen drei Nächte im Serengeti Plains Camp – der neuesten Ergänzung der Luxus-Zeltcamp-Kollektion. Mit nur 7 wunderschön gestalteten Zelten bietet es ultimative Privatsphäre und Exklusivität. Das Camp ist perfekt in der Nähe der Namiri-Ebene gelegen und bietet einen unübertroffenen Zugang zu einer der besten Regionen für Gepardensichtungen in Afrika.\n\nDie Namiri-Ebene ist ein wichtiges Gebiet für den Gepardenschutz. Die offenen Graslandschaften bieten den idealen Lebensraum für diese gefährdeten Katzen und laufende Forschungs- und Schutzbemühungen tragen zum Schutz ihrer Populationen bei. Von Ende Oktober bis November sorgen die zurückkehrenden Gnuherden für dramatische Interaktionen zwischen Raubtieren und Beutetieren und bieten den Gästen intime Einblicke in die Geparden in Aktion – und unterstützen gleichzeitig wichtige Naturschutzarbeiten.",
       "included": [
         "Alle im Programm beschriebenen Transfers",
@@ -1085,7 +1085,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "4 Days",
       "location": "Arusha – Ngorongoro",
       "price": "$1,555",
-      "image": "https://www.exploretanzania.nl/wp-content/uploads/2018/10/Tarangire-2-1920x1280-1920x1080.jpg?x39476",
+      "image": "/images/rhino-family.jpg",
       "overview": "Diese Kurzreise beinhaltet eine Nacht am Kraterrand, sodass Sie Ihre Safari-Zeit im Ngorongoro-Krater, dem einzigartigen Safari-Reiseziel Afrikas, optimal nutzen können. Die Fahrt von Arusha, Ihrem Ausgangspunkt der Safari, dauert etwa 4,5–5 Stunden – und die Übernachtung in Ngorongoro verschafft Ihnen den perfekten Vorsprung am nächsten Morgen!\n\nAm nächsten Morgen stehen Sie früh auf, um die Tierwelt in ihrer lebhaftesten Form zu beobachten, bevor die Menschenmassen eintreffen.\n\nDer Ngorongoro-Krater ist der größte intakte Vulkankrater der Welt – und beherbergt das ganze Jahr über 25.000 Tiere, darunter das seltene Spitzmaulnashorn. Hier kann man mit etwas Glück sogar alle Big Five an einem einzigen Tag sehen!",
       "included": [
         "Alle im Programm beschriebenen Transfers",
@@ -1144,7 +1144,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "6 Days",
       "location": "Arusha - Lago Manyara - Ngorongoro - Serengeti",
       "price": "$2,000",
-      "image": "https://www.asiliaafrica.com/wp-content/uploads/2024/04/A-flock-of-flamingos-Lake-Manyara-Arusha-Tanzania.jpg",
+      "image": "/images/giraffes.jpg",
       "overview": "Este viaje es ideal para el viajero que tiene poco tiempo pero quiere ver los mejores parques del norte de Tanzania. El itinerario del safari lo llevará a los flamencos rosados ​​del lago Manyara, las manadas de ñus y cebras en las sabanas del Serengeti y conducirá hasta el majestuoso cráter del Ngorongoro. Seguramente verá los cinco grandes de África (elefante, búfalo, leopardo, rinoceronte y león), así como muchos otros animales y vida silvestre durante este recorrido.\n\nEste itinerario es una combinación perfecta de precio y calidad; Los huéspedes se alojan en cómodos alojamientos cerca del lago Manyara y Ngorongoro, así como en el Parque Nacional Serengeti. Un conductor-guía experimentado guiará su viaje a través de la selva africana y compartirá con usted información más profunda sobre la vida silvestre y el paisaje que lo rodea.",
       "included": [
         "Todos los traslados descritos en el programa.",
@@ -1212,7 +1212,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "Arusha - Ngorongoro - Empakaai",
       "price": "$2,285",
-      "image": "https://abundadiscoveriesuganda.com/wp-content/uploads/2025/01/Ngorongoro-National-Park-Tanzania-by-Licious-Adventure-%E2%80%94-YouPic.jpg",
+      "image": "/images/ngorongoro-crater.jpg",
       "overview": "Esta aventura de 3 días es perfecta para aquellos que desean explorar el impresionante cráter del Ngorongoro sin la molestia de cambiar constantemente de ubicación. Te alojarás en una cómoda tienda de campaña durante dos noches y la utilizarás como base para explorar los aspectos más destacados únicos de la zona. El día 1 comienza con un recorrido panorámico desde Arusha y una caminata guiada por guardabosques a lo largo del borde del cráter para disfrutar de la vista panorámica de la caldera de Ngorongoro. El día 2 ofrece una caminata por el cráter Empakai, centrándose en los impresionantes paisajes. El día 3, disfrute de un safari dentro del cráter Ngorongoro, hogar de la población de vida silvestre más densa del mundo. ¡Alojarse dentro de un sitio declarado Patrimonio de la Humanidad por la UNESCO añade una capa extra de magia a la experiencia!",
       "included": [
         "Todos los traslados descritos en el programa.",
@@ -1275,7 +1275,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "10 Days",
       "location": "Tarangire - Ngorongoro - Serengeti - Zanzíbar",
       "price": "$4,500",
-      "image": "https://notwithoutmypassport.com/wp-content/uploads/2014/12/masai-zanzibar.jpg",
+      "image": "/images/lioness-track.jpg",
       "overview": "Bienvenido a un inolvidable viaje de descubrimiento\n\nPrepárese para experimentar la verdadera esencia de África en un safari cuidadosamente seleccionado que combina aventura, lujo y una belleza natural impresionante. Este extraordinario viaje lo lleva a través de algunos de los destinos más emblemáticos de Tanzania. El Parque Nacional Tarangire, el Parque Nacional Lago Manyara, el Parque Nacional Serengeti y el mundialmente famoso cráter Ngorongoro. Antes de terminar en el paraíso tropical de Zanzíbar.\n\nDesde los majestuosos paisajes salpicados de baobabs de Tarangire hasta la exuberante belleza del lago Manyara, donde deambulan leones trepadores de árboles, cada momento está diseñado para inspirar. Aventúrese en las interminables llanuras del Serengeti, hogar de la Gran Migración y de una increíble concentración de vida silvestre, luego descienda al Cráter del Ngorongoro, una de las maravillas naturales más espectaculares de la Tierra, repleta de vida.\n\nDespués de días de emocionantes safaris y encuentros inolvidables con la vida silvestre, su viaje concluye en Zanzíbar, donde las playas de arena blanca, las aguas turquesas y el rico patrimonio cultural ofrecen el escenario perfecto para relajarse y descansar.\n\nEsto es más que un simple safari, es una experiencia africana completa. Ya sea que busque aventura, romance o pura relajación, este viaje promete recuerdos que durarán toda la vida.\n\nExplora lo salvaje. Abraza la belleza. Termina en el paraíso.",
       "included": [
         "Todos los traslados descritos en el programa.",
@@ -1367,7 +1367,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "Tarangire - Ngorongoro - Ndutu",
       "price": "$2,220",
-      "image": "https://www.jacadatravel.com/_next/image/?url=https%3A%2F%2Fcdn.jacadatravel.com%2Fwp-content%2Fuploads%2Fbis-images%2F21285%2Fwildebeest_dreamstime_xl_17312474-1600x1000-f50_50.jpg&w=1600&q=100",
+      "image": "/images/elephants-herd.jpg",
       "overview": "Este safari de 5 días tiene que ver con el tiempo y la ubicación: lo llevará al lugar donde realmente se encuentra la Gran Migración. Desde diciembre hasta principios de marzo, los rebaños se reúnen en la región de Ndutu para la espectacular temporada de partos, que suele comenzar a mediados de enero. Como parte del gran ecosistema del Serengeti, Ndutu ofrece asientos de primera fila a miles de ñus que dan a luz en las llanuras abiertas, y a los depredadores que nunca se quedan atrás.\n\nEl viaje comienza con un clásico día de safari en Tarangire, conocido por sus antiguos baobabs y sus grandes manadas de elefantes. Más adelante, disfrutarás de un safari en el cráter del Ngorongoro, antes de dirigirte a las llanuras de Ndutu, que forman parte del ecosistema más grande de Ngorongoro-Serengeti.\n\nEl alojamiento durante la temporada de migración se realiza en campamentos de tiendas de temporada: alojamientos cómodos y semipermanentes instalados en el corazón de la acción. Estos campamentos están cuidadosamente ubicados en áreas de vida silvestre privilegiadas y ofrecen camas reales, baños privados y veladas acogedoras junto al fuego.",
       "included": [
         "Todos los traslados descritos en el programa.",
@@ -1430,7 +1430,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Tarangire - Ngorongoro - Ndutu - Serengeti",
       "price": "$3,930",
-      "image": "https://congemasafaris.com/wp-content/uploads/2025/07/Calving-season.jpeg",
+      "image": "/images/elephant-portrait.jpg",
       "overview": "Este safari es una excelente opción para los viajeros que desean ver la Gran Migración en la región de Ndutu durante la temporada de partos, mientras exploran los paisajes ricos en vida silvestre del Serengeti Central. De enero a febrero, las llanuras del sur cobran vida con ñus recién nacidos y muchos depredadores cercanos.\n\nCon dos noches en Ndutu y Central Serengeti, este itinerario le brinda la cantidad justa de tiempo en cada área. También visitarás el Parque Nacional Tarangire, famoso por sus baobabs y elefantes, y el cráter Ngorongoro, una caldera volcánica colapsada que alberga una de las mayores concentraciones de vida silvestre de toda África.\n\nBonificación: en el camino, te hospedarás en cómodos albergues y campamentos de rango medio, incluido Awali Camp, ¡la última incorporación a nuestra colección! Es una propiedad elegante con sólo 10 tiendas de campaña y una ubicación fantástica entre el sur y el centro de Serengeti. Es un paso por encima de las opciones económicas típicas, ofreciendo un ambiente más íntimo y tarifas con descuento especiales para nuestros huéspedes.",
       "included": [
         "Todos los traslados descritos en el programa.",
@@ -1507,7 +1507,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Ngorongoro - Corredor occidental del Serengeti",
       "price": "$3,260",
-      "image": "https://acaciasafari.co.ug/wp-content/uploads/2021/09/great-migration-1200x675.jpg",
+      "image": "/images/leopard.jpg",
       "overview": "Este safari de 5 días está programado para uno de los eventos más emocionantes del año: la Gran Migración que pasa por el corredor occidental del Serengeti, generalmente desde finales de mayo hasta finales de junio. Durante este período, manadas de ñus y cebras intentan cruzar el río Grumeti, donde los cocodrilos acechan.\n\nSu viaje comienza en el Parque Nacional Tarangire, conocido por sus antiguos baobabs y grandes manadas de elefantes, seguido de un safari en el cráter Ngorongoro, un sitio rico en vida silvestre declarado Patrimonio de la Humanidad por la UNESCO. Luego, pase una noche en el Serengeti central antes de dirigirse al oeste para pasar dos noches en el área de migración llamada Corredor Occidental.\n\nA diferencia de los cruces del río Mara en el norte del Serengeti (julio-septiembre), los cruces de Grumeti suelen estar menos concurridos y parecen más íntimos. Puede que el río sea menos profundo, por lo que el espectáculo es menos dramático, pero aún así está lleno de tensión mientras enormes cocodrilos acechan en el agua. Es una forma más tranquila y privada de presenciar la Gran Migración, lejos de las multitudes de la temporada alta en el norte.",
       "included": [
         "Todos los traslados descritos en el programa.",
@@ -1580,7 +1580,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Tarangire - Ngorongoro - Serengeti",
       "price": "$3,495",
-      "image": "https://asanjaafrica.com/wp-content/uploads/2025/09/Serengeti-Lions-Kings-of-Tanzanias-Savannah.jpg",
+      "image": "/images/hero-lions-tree.jpg",
       "overview": "Este safari de 5 días combina parques clásicos con un toque centrado en los depredadores. Comenzando en Tarangire, tendrás la oportunidad de ver casi todos los Cinco Grandes, incluidos los leones, y posiblemente vislumbrar esquivos guepardos descansando bajo los icónicos baobabs y acacias. Luego descenderás al cráter Ngorongoro, un lugar de depredadores con su densa vida silvestre, incluidos los raros rinocerontes.\n\nPasarás tres noches en Serengeti Plains Camp, la última incorporación a la colección de campamentos de tiendas de campaña de lujo. Con solo 7 tiendas de campaña bellamente diseñadas, ofrece máxima privacidad y exclusividad. Perfectamente ubicado cerca de las llanuras de Namiri, el campamento permite un acceso inigualable a una de las mejores regiones para avistar guepardos en África.\n\nNamiri Plains es un área vital para la conservación del guepardo. Sus pastizales abiertos proporcionan un hábitat ideal para estos felinos en peligro de extinción, y los esfuerzos continuos de investigación y protección ayudan a salvaguardar sus poblaciones. Desde finales de octubre hasta noviembre, las manadas de ñus que regresan traen espectaculares interacciones depredador-presa, ofreciendo a los visitantes vistas íntimas de los guepardos en acción, al tiempo que apoyan un trabajo de conservación crucial.",
       "included": [
         "Todos los traslados descritos en el programa.",
@@ -1653,7 +1653,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "4 Days",
       "location": "Arusha-Ngorongoro",
       "price": "$1,555",
-      "image": "https://www.exploretanzania.nl/wp-content/uploads/2018/10/Tarangire-2-1920x1280-1920x1080.jpg?x39476",
+      "image": "/images/rhino-family.jpg",
       "overview": "Este corto viaje incluye una noche en el borde del cráter, para que pueda aprovechar al máximo su tiempo de safari en el cráter Ngorongoro, el destino de safari único en África. El viaje desde Arusha, el punto de partida del safari, dura entre 4,5 y 5 horas, ¡y pasar la noche en Ngorongoro le brinda la ventaja perfecta a la mañana siguiente!\n\nA la mañana siguiente, te levantarás temprano para contemplar la vida salvaje en su máxima expresión, antes de que lleguen las multitudes.\n\nEl cráter Ngorongoro es la caldera volcánica intacta más grande del mundo y alberga a más de 25.000 animales durante todo el año, incluido el raro rinoceronte negro. ¡Aquí, los más afortunados podrían incluso ver los Cinco Grandes en un solo día!",
       "included": [
         "Todos los traslados descritos en el programa.",
@@ -1712,7 +1712,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "6 Days",
       "location": "Arusha - Lac Manyara - Ngorongoro - Serengeti",
       "price": "$2,000",
-      "image": "https://www.asiliaafrica.com/wp-content/uploads/2024/04/A-flock-of-flamingos-Lake-Manyara-Arusha-Tanzania.jpg",
+      "image": "/images/giraffes.jpg",
       "overview": "Ce voyage est idéal pour le voyageur qui manque de temps mais souhaite visiter les meilleurs parcs du nord de la Tanzanie. L'itinéraire du safari vous mènera aux flamants roses du lac Manyara, aux troupeaux de gnous et de zèbres des savanes du Serengeti, et vous mènera au majestueux cratère du Ngorongoro. Vous êtes sûr de voir les Big Five d'Afrique (éléphant, buffle, léopard, rhinocéros et lion), ainsi que de nombreux autres animaux et animaux sauvages au cours de cette visite.\n\nCet itinéraire est une combinaison parfaite de prix et de qualité ; les clients séjournent dans des lodges confortables près du lac Manyara et du Ngorongoro, ainsi qu'en plein cœur du parc national du Serengeti. Un chauffeur-guide expérimenté dirigera votre voyage à travers la brousse africaine et partagera avec vous des informations plus approfondies sur la faune et les paysages qui vous entourent.",
       "included": [
         "Tous les transferts décrits au programme",
@@ -1780,7 +1780,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "Arusha - Ngorongoro - Empakaai",
       "price": "$2,285",
-      "image": "https://abundadiscoveriesuganda.com/wp-content/uploads/2025/01/Ngorongoro-National-Park-Tanzania-by-Licious-Adventure-%E2%80%94-YouPic.jpg",
+      "image": "/images/ngorongoro-crater.jpg",
       "overview": "Cette aventure de 3 jours est parfaite pour ceux qui souhaitent explorer le magnifique cratère du Ngorongoro sans avoir à changer constamment de lieu. Vous séjournerez dans un pavillon de tente confortable pendant deux nuits, en l'utilisant comme base pour explorer les points forts uniques de la région. Le premier jour commence par une route panoramique depuis Arusha et une promenade guidée par des gardes forestiers le long du bord du cratère pour profiter de la vue panoramique sur la caldeira du Ngorongoro. Le jour 2 propose une randonnée à travers le cratère Empakai, en se concentrant sur les paysages époustouflants. Le troisième jour, profitez d'un safari dans le cratère du Ngorongoro, qui abrite la population sauvage la plus dense au monde. Séjourner à l'intérieur d'un site classé au patrimoine mondial de l'UNESCO ajoute une couche supplémentaire de magie à l'expérience !",
       "included": [
         "Tous les transferts décrits au programme",
@@ -1843,7 +1843,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "10 Days",
       "location": "Tarangire - Ngorongoro - Serengeti - Zanzibar",
       "price": "$4,500",
-      "image": "https://notwithoutmypassport.com/wp-content/uploads/2014/12/masai-zanzibar.jpg",
+      "image": "/images/lioness-track.jpg",
       "overview": "Bienvenue dans un voyage de découverte inoubliable\n\nPréparez-vous à découvrir la véritable essence de l'Afrique lors d'un safari soigneusement organisé qui allie aventure, luxe et beauté naturelle à couper le souffle. Ce voyage extraordinaire vous emmène à travers certaines des destinations les plus emblématiques de Tanzanie. Le parc national de Tarangire, le parc national du lac Manyara, le parc national du Serengeti et le cratère du Ngorongoro de renommée mondiale. Avant de terminer dans le paradis tropical de Zanzibar.\n\nDes majestueux paysages parsemés de baobabs de Tarangire à la beauté luxuriante du lac Manyara, où errent des lions grimpeurs aux arbres, chaque instant est conçu pour inspirer. Aventurez-vous dans les plaines infinies du Serengeti, foyer de la Grande Migration et d'une incroyable concentration d'animaux sauvages, puis descendez dans le cratère du Ngorongoro, l'une des merveilles naturelles les plus spectaculaires de la planète, regorgeant de vie.\n\nAprès des journées de safaris palpitants et de rencontres inoubliables avec la faune, votre voyage se termine à Zanzibar, où les plages de sable blanc, les eaux turquoise et le riche patrimoine culturel offrent le cadre idéal pour se détendre.\n\nC'est plus qu'un simple safari, c'est une expérience africaine complète. Que vous recherchiez l'aventure, la romance ou la pure détente, ce voyage promet des souvenirs qui dureront toute une vie.\n\nExplorez la nature. Embrassez la beauté. Fin au paradis.",
       "included": [
         "Tous les transferts décrits au programme",
@@ -1935,7 +1935,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "Tarangire - Ngorongoro - Ndutu",
       "price": "$2,220",
-      "image": "https://www.jacadatravel.com/_next/image/?url=https%3A%2F%2Fcdn.jacadatravel.com%2Fwp-content%2Fuploads%2Fbis-images%2F21285%2Fwildebeest_dreamstime_xl_17312474-1600x1000-f50_50.jpg&w=1600&q=100",
+      "image": "/images/elephants-herd.jpg",
       "overview": "Ce safari de 5 jours est axé sur le timing et le lieu : il vous emmène là où se trouve réellement la Grande Migration. De décembre à début mars, les troupeaux se rassemblent dans la région de Ndutu pour la spectaculaire saison de mise bas, qui débute généralement à la mi-janvier. Faisant partie du grand écosystème du Serengeti, Ndutu offre des places aux premières loges à des milliers de gnous qui mettent bas dans les plaines ouvertes – et aux prédateurs qui ne s'éloignent jamais bien derrière.\n\nLe voyage commence par une journée de safari classique à Tarangire, connue pour ses anciens baobabs et ses grands troupeaux d'éléphants. Plus loin, vous profiterez d'un safari dans le cratère du Ngorongoro, avant de vous diriger vers les plaines de Ndutu, qui font partie du plus grand écosystème du Ngorongoro-Serengeti.\n\nL'hébergement pendant la saison de migration se fait dans des camps de tentes saisonniers – des lodges confortables et semi-permanents installés au cœur de l'action. Ces camps sont soigneusement placés dans des zones fauniques privilégiées, offrant de vrais lits, des salles de bains privatives et des soirées agréables au coin du feu.",
       "included": [
         "Tous les transferts décrits au programme",
@@ -1998,7 +1998,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Tarangire - Ngorongoro - Ndutu - Serengeti",
       "price": "$3,930",
-      "image": "https://congemasafaris.com/wp-content/uploads/2025/07/Calving-season.jpeg",
+      "image": "/images/elephant-portrait.jpg",
       "overview": "Ce safari est un excellent choix pour les voyageurs qui souhaitent assister à la Grande Migration dans la région de Ndutu pendant la saison de mise bas, tout en explorant les paysages riches en faune du centre du Serengeti. De janvier à février, les plaines du sud s'animent de nouveaux gnous et de nombreux prédateurs à proximité.\n\nAvec deux nuits à Ndutu et dans le centre du Serengeti, cet itinéraire vous donne juste ce qu'il faut de temps dans chaque région. Vous visiterez également le parc national de Tarangire, célèbre pour ses baobabs et ses éléphants, ainsi que le cratère du Ngorongoro, une caldeira volcanique effondrée qui abrite l'une des plus fortes concentrations d'animaux sauvages de toute l'Afrique.\n\nBonus : en cours de route, vous séjournerez dans des lodges et des camps confortables de milieu de gamme, notamment Awali Camp, le dernier ajout à notre collection ! C'est une propriété élégante avec seulement 10 tentes et un emplacement fantastique entre le sud et le centre du Serengeti. C'est un cran au-dessus des options économiques typiques, offrant une atmosphère plus intime et des tarifs réduits spéciaux pour nos clients.",
       "included": [
         "Tous les transferts décrits au programme",
@@ -2075,7 +2075,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Corridor occidental Ngorongoro - Serengeti",
       "price": "$3,260",
-      "image": "https://acaciasafari.co.ug/wp-content/uploads/2021/09/great-migration-1200x675.jpg",
+      "image": "/images/leopard.jpg",
       "overview": "Ce safari de 5 jours est programmé pour l'un des événements les plus passionnants de l'année : la Grande Migration traversant le corridor occidental du Serengeti, généralement de fin mai à fin juin. Durant cette période, des troupeaux de gnous et de zèbres tentent de traverser la rivière Grumeti, où les guettent les crocodiles.\n\nVotre voyage commence dans le parc national de Tarangire, connu pour ses anciens baobabs et ses grands troupeaux d'éléphants, suivi d'un safari dans le cratère du Ngorongoro, un site classé au patrimoine mondial de l'UNESCO et riche en faune. Passez ensuite une nuit dans le centre du Serengeti avant de vous diriger vers l'ouest pour deux nuits dans la zone de migration appelée Western Corridor.\n\nContrairement aux traversées de la rivière Mara dans le nord du Serengeti (juillet-septembre), les traversées de Grumeti sont souvent moins fréquentées et semblent plus intimes. La rivière est peut-être moins profonde, le spectacle est donc moins dramatique, mais toujours rempli de tension alors que d'énormes crocodiles se cachent dans l'eau. C'est une manière plus calme et plus privée d'assister à la Grande Migration, loin des foules de haute saison du nord.",
       "included": [
         "Tous les transferts décrits au programme",
@@ -2148,7 +2148,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Tarangire - Ngorongoro - Serengeti",
       "price": "$3,495",
-      "image": "https://asanjaafrica.com/wp-content/uploads/2025/09/Serengeti-Lions-Kings-of-Tanzanias-Savannah.jpg",
+      "image": "/images/hero-lions-tree.jpg",
       "overview": "Ce safari de 5 jours allie les parcs classiques avec une touche axée sur les prédateurs. À partir de Tarangire, vous aurez la chance de voir presque tous les Big Five, y compris les lions, et éventuellement d'apercevoir des guépards insaisissables se reposant sous des baobabs et des acacias emblématiques. Ensuite, vous descendrez dans le cratère du Ngorongoro, un haut lieu de prédateurs avec sa faune dense, notamment les rares rhinocéros.\n\nVous passerez trois nuits au Serengeti Plains Camp, le dernier ajout à la collection de camps de tentes de luxe. Avec seulement 7 tentes magnifiquement conçues, il offre une intimité et une exclusivité ultimes. Idéalement situé à proximité des plaines de Namiri, le camp permet un accès inégalé à l'une des meilleures régions d'Afrique pour l'observation des guépards.\n\nLes plaines de Namiri sont une zone vitale pour la conservation des guépards. Ses prairies ouvertes offrent un habitat idéal à ces chats en voie de disparition, et les efforts de recherche et de protection en cours contribuent à sauvegarder leurs populations. De fin octobre à novembre, le retour des troupeaux de gnous entraîne des interactions spectaculaires entre prédateurs et proies, offrant aux visiteurs des vues intimes des guépards en action, tout en soutenant un travail de conservation crucial.",
       "included": [
         "Tous les transferts décrits au programme",
@@ -2221,7 +2221,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "4 Days",
       "location": "Arusha - Ngorongoro",
       "price": "$1,555",
-      "image": "https://www.exploretanzania.nl/wp-content/uploads/2018/10/Tarangire-2-1920x1280-1920x1080.jpg?x39476",
+      "image": "/images/rhino-family.jpg",
       "overview": "Ce court voyage comprend une nuit au bord du cratère, afin que vous puissiez profiter au maximum de votre safari dans le cratère du Ngorongoro, la destination de safari unique en Afrique. Le trajet depuis Arusha, votre point de départ du safari, prend environ 4,5 à 5 heures – et passer la nuit à Ngorongoro vous donne une longueur d'avance parfaite le lendemain matin !\n\nLe lendemain matin, vous vous réveillerez tôt pour observer la faune dans toute sa splendeur, avant l'arrivée de la foule.\n\nLe cratère du Ngorongoro est la plus grande caldeira volcanique intacte du monde et abrite plus de 25 000 animaux toute l'année, dont le rare rhinocéros noir. Ici, les plus chanceux pourront même voir tous les Big Five en une seule journée !",
       "included": [
         "Tous les transferts décrits au programme",
@@ -2280,7 +2280,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "6 Days",
       "location": "Arusha-Lago Manyara-Ngorongoro-Serengeti",
       "price": "$2,000",
-      "image": "https://www.asiliaafrica.com/wp-content/uploads/2024/04/A-flock-of-flamingos-Lake-Manyara-Arusha-Tanzania.jpg",
+      "image": "/images/giraffes.jpg",
       "overview": "Questo viaggio è l'ideale per i viaggiatori che hanno poco tempo ma vogliono vedere i migliori parchi della Tanzania settentrionale. L'itinerario del safari vi porterà tra i fenicotteri rosa del Lago Manyara, le mandrie di gnu e zebre nelle savane del Serengeti, e vi porterà nel maestoso Cratere di Ngorongoro. Durante questo tour vedrai sicuramente i Big Five dell'Africa (elefante, bufalo, leopardo, rinoceronte e leone), così come molti altri animali e animali selvatici.\n\nQuesto itinerario è una perfetta combinazione di prezzo e qualità; gli ospiti soggiornano in confortevoli lodge vicino al Lago Manyara e Ngorongoro, nonché nel Parco Nazionale del Serengeti. Una guida autista esperta condurrà il tuo viaggio attraverso il bush africano e condividerà con te approfondimenti sulla fauna selvatica e sui paesaggi intorno a te.",
       "included": [
         "Tutti i trasferimenti descritti nel programma",
@@ -2348,7 +2348,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "Arusha-Ngorongoro-Empakaai",
       "price": "$2,285",
-      "image": "https://abundadiscoveriesuganda.com/wp-content/uploads/2025/01/Ngorongoro-National-Park-Tanzania-by-Licious-Adventure-%E2%80%94-YouPic.jpg",
+      "image": "/images/ngorongoro-crater.jpg",
       "overview": "Questa avventura di 3 giorni è perfetta per coloro che desiderano esplorare lo straordinario cratere di Ngorongoro senza il fastidio di cambiare costantemente posizione. Soggiornerai in un confortevole lodge tenda per due notti, utilizzandolo come base per esplorare le attrazioni uniche della zona. Il primo giorno inizia con un viaggio panoramico da Arusha e una passeggiata guidata dai ranger lungo il bordo del cratere per godersi la vista panoramica della caldera di Ngorongoro. Il secondo giorno offre un'escursione attraverso il cratere Empakai, concentrandosi sui paesaggi mozzafiato. Il terzo giorno, goditi un safari all'interno del cratere di Ngorongoro, che ospita la più densa popolazione di fauna selvatica del mondo. Soggiornare all'interno di un sito patrimonio mondiale dell'UNESCO aggiunge un ulteriore livello di magia all'esperienza!",
       "included": [
         "Tutti i trasferimenti descritti nel programma",
@@ -2411,7 +2411,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "10 Days",
       "location": "Tarangire-Ngorongoro-Serengeti-Zanzibar",
       "price": "$4,500",
-      "image": "https://notwithoutmypassport.com/wp-content/uploads/2014/12/masai-zanzibar.jpg",
+      "image": "/images/lioness-track.jpg",
       "overview": "Benvenuti in un indimenticabile viaggio alla scoperta\n\nPreparati a vivere la vera essenza dell'Africa in un safari attentamente curato che unisce avventura, lusso e bellezza naturale mozzafiato. Questo straordinario viaggio ti porta attraverso alcune delle destinazioni più iconiche della Tanzania. Parco Nazionale del Tarangire, Parco Nazionale del Lago Manyara, Parco Nazionale del Serengeti e il famoso cratere di Ngorongoro. Prima di concludere nel paradiso tropicale di Zanzibar.\n\nDai maestosi paesaggi punteggiati di baobab del Tarangire alla lussureggiante bellezza del Lago Manyara, dove vagano i leoni che si arrampicano sugli alberi, ogni momento è progettato per ispirare. Avventurati nelle pianure infinite del Serengeti, sede della Grande Migrazione e di un'incredibile concentrazione di fauna selvatica, quindi scendi nel cratere di Ngorongoro, una delle meraviglie naturali più spettacolari della Terra, brulicante di vita.\n\nDopo giorni di emozionanti safari e indimenticabili incontri con la fauna selvatica, il tuo viaggio si conclude a Zanzibar, dove spiagge di sabbia bianca, acque turchesi e un ricco patrimonio culturale offrono l'ambiente perfetto per rilassarsi e distendersi.\n\nQuesto è più di un semplice safari, è un'esperienza africana completa. Che tu stia cercando avventura, romanticismo o puro relax, questo viaggio promette ricordi che dureranno tutta la vita.\n\nEsplora la natura selvaggia. Abbraccia la bellezza. Finisci in paradiso.",
       "included": [
         "Tutti i trasferimenti descritti nel programma",
@@ -2503,7 +2503,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "5 Days",
       "location": "Tarangire-Ngorongoro-Ndutu",
       "price": "$2,220",
-      "image": "https://www.jacadatravel.com/_next/image/?url=https%3A%2F%2Fcdn.jacadatravel.com%2Fwp-content%2Fuploads%2Fbis-images%2F21285%2Fwildebeest_dreamstime_xl_17312474-1600x1000-f50_50.jpg&w=1600&q=100",
+      "image": "/images/elephants-herd.jpg",
       "overview": "Questo safari di 5 giorni è incentrato su tempi e luogo: ti porterà dove si trova effettivamente la Grande Migrazione. Da dicembre all'inizio di marzo, le mandrie si riuniscono nella regione di Ndutu per la drammatica stagione del parto, che di solito inizia a metà gennaio. Parte del più ampio ecosistema del Serengeti, Ndutu offre posti in prima fila a migliaia di gnu che partoriscono nelle pianure aperte e ai predatori che non si allontanano mai molto.\n\nIl viaggio inizia con un classico safari nel Tarangire, noto per i suoi antichi baobab e i grandi branchi di elefanti. Più avanti, potrai goderti un safari nel cratere di Ngorongoro, prima di dirigerti verso le pianure di Ndutu, che fanno parte del più ampio ecosistema di Ngorongoro-Serengeti.\n\nLa sistemazione durante la stagione migratoria avviene in campi tendati stagionali: confortevoli lodge semipermanenti allestiti nel cuore dell'azione. Questi campi sono accuratamente posizionati in aree naturali privilegiate e offrono letti veri, bagni privati ​​e serate accoglienti accanto al fuoco.",
       "included": [
         "Tutti i trasferimenti descritti nel programma",
@@ -2566,7 +2566,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Tarangire-Ngorongoro-Ndutu-Serengeti",
       "price": "$3,930",
-      "image": "https://congemasafaris.com/wp-content/uploads/2025/07/Calving-season.jpeg",
+      "image": "/images/elephant-portrait.jpg",
       "overview": "Questo safari è un'ottima scelta per i viaggiatori che desiderano vedere la Grande Migrazione nella regione di Ndutu durante la stagione del parto, esplorando allo stesso tempo i paesaggi ricchi di fauna selvatica del Serengeti centrale. Da gennaio a febbraio, le pianure meridionali si animano di gnu appena nati e di numerosi predatori nelle vicinanze.\n\nCon due notti sia a Ndutu che nel Serengeti centrale, questo itinerario ti offre la giusta quantità di tempo in ciascuna area. Visiterai anche il Parco Nazionale del Tarangire, famoso per i suoi baobab e gli elefanti, e il cratere di Ngorongoro, una caldera vulcanica crollata che ospita una delle più alte concentrazioni di fauna selvatica di tutta l'Africa\n\nBonus: lungo il percorso, alloggerai in confortevoli lodge e campi di fascia media, incluso l'Awali Camp, l'ultima aggiunta alla nostra collezione! È una struttura elegante con solo 10 tende e una posizione fantastica tra il Serengeti meridionale e centrale. È un gradino sopra le tipiche opzioni economiche, offrendo un'atmosfera più intima e tariffe scontate speciali per i nostri ospiti.",
       "included": [
         "Tutti i trasferimenti descritti nel programma",
@@ -2643,7 +2643,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Corridoio occidentale Ngorongoro-Serengeti",
       "price": "$3,260",
-      "image": "https://acaciasafari.co.ug/wp-content/uploads/2021/09/great-migration-1200x675.jpg",
+      "image": "/images/leopard.jpg",
       "overview": "Questo safari di 5 giorni è programmato per uno degli eventi più emozionanti dell'anno: la Grande Migrazione che attraversa il corridoio occidentale del Serengeti, in genere da fine maggio a fine giugno. Durante questo periodo, branchi di gnu e zebre tentano di attraversare il fiume Grumeti, dove i coccodrilli sono in agguato.\n\nIl tuo viaggio inizia nel Parco Nazionale del Tarangire, noto per i suoi antichi baobab e i grandi branchi di elefanti, seguito da un safari nel cratere di Ngorongoro, un sito patrimonio dell'UNESCO ricco di fauna selvatica. Quindi trascorri una notte nel Serengeti centrale prima di dirigerti a ovest per due notti nell'area di migrazione chiamata Corridoio Occidentale.\n\nA differenza delle traversate sul fiume Mara nel Serengeti settentrionale (luglio-settembre), le traversate di Grumeti sono spesso meno affollate e sembrano più intime. Il fiume potrebbe essere meno profondo, quindi lo spettacolo è meno drammatico, ma comunque pieno di tensione mentre enormi coccodrilli si nascondono nell'acqua. È un modo più tranquillo e privato per assistere alla Grande Migrazione, lontano dalle folle di alta stagione del nord.",
       "included": [
         "Tutti i trasferimenti descritti nel programma",
@@ -2716,7 +2716,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "7 Days",
       "location": "Tarangire-Ngorongoro-Serengeti",
       "price": "$3,495",
-      "image": "https://asanjaafrica.com/wp-content/uploads/2025/09/Serengeti-Lions-Kings-of-Tanzanias-Savannah.jpg",
+      "image": "/images/hero-lions-tree.jpg",
       "overview": "Questo safari di 5 giorni unisce i parchi classici con un tocco incentrato sui predatori. Partendo dal Tarangire, avrai la possibilità di vedere quasi tutti i Big Five, compresi i leoni, e magari intravedere gli sfuggenti ghepardi che riposano sotto gli iconici baobab e gli alberi di acacia. Quindi scenderai nel cratere di Ngorongoro, un hotspot di predatori con la sua fitta fauna selvatica, inclusi i rari rinoceronti.\n\nTrascorrerai tre notti al Serengeti Plains Camp, l'ultima aggiunta alla collezione di campi tendati di lusso. Con solo 7 tende dal design accattivante, offre la massima privacy ed esclusività. Perfettamente posizionato vicino alle pianure di Namiri, il campo consente un accesso senza pari a una delle migliori regioni per gli avvistamenti di ghepardi in Africa.\n\nNamiri Plains è un'area vitale per la conservazione dei ghepardi. Le sue praterie aperte forniscono l'habitat ideale per questi gatti in via di estinzione e gli sforzi di ricerca e protezione in corso aiutano a salvaguardare le loro popolazioni. Da fine ottobre a novembre, le mandrie di gnu che ritornano portano drammatiche interazioni predatore-preda, offrendo agli ospiti visioni intime dei ghepardi in azione, sostenendo al contempo un cruciale lavoro di conservazione.",
       "included": [
         "Tutti i trasferimenti descritti nel programma",
@@ -2789,7 +2789,7 @@ export const translatedItineraries: Record<string, any> = {
       "days": "4 Days",
       "location": "Arusha-Ngorongoro",
       "price": "$1,555",
-      "image": "https://www.exploretanzania.nl/wp-content/uploads/2018/10/Tarangire-2-1920x1280-1920x1080.jpg?x39476",
+      "image": "/images/rhino-family.jpg",
       "overview": "Questo breve viaggio include una notte sul bordo del cratere, così potrai sfruttare al massimo il tuo tempo di safari nel cratere di Ngorongoro, l'unica destinazione safari in Africa. Il viaggio da Arusha, il punto di partenza del safari, dura circa 4,5-5 ore e il pernottamento a Ngorongoro ti dà il perfetto vantaggio la mattina successiva!\n\nLa mattina successiva ti sveglierai presto per ammirare la fauna selvatica nel suo aspetto più vivace, prima che arrivi la folla.\n\nIl cratere di Ngorongoro è la più grande caldera vulcanica intatta del mondo e ospita oltre 25.000 animali tutto l'anno, incluso il raro rinoceronte nero. Qui i più fortunati potrebbero addirittura vedere tutti i Big Five in un solo giorno!",
       "included": [
         "Tutti i trasferimenti descritti nel programma",
